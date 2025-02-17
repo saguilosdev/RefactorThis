@@ -1,5 +1,124 @@
+## Ignore Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.ncb
+*.cache
+*.pdb
+*.aps
+*.opendb
+*.VC.opendb
+*.tlog/
+
+## Ignore build outputs
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+out/
+[Oo]ut/
+*.log
+
+## Ignore .NET Core / .NET build artifacts
+project.lock.json
+project.assets.json
+project.nuget.cache
+artifacts/
+
+## Ignore NuGet dependencies
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+NuGet.Config
+NuGetScratch/
+*.csproj.user
+
+## Ignore Rider and JetBrains-specific files
+.idea/
+*.iml
+*.sln.DotSettings
+**/.idea/
+**/.idea_modules/
+**/*.ipr
+**/*.iws
+**/resharper.xml
+**/.dotCover/
+**/.dotTrace/
+
+## Ignore MonoDevelop/Xamarin Studio
+.mono/
+*.pidb
+*.userprefs
+*.sln.*
+*.userprefs
+
+## Ignore Web-related files
+node_modules/
+bower_components/
+wwwroot/node_modules/
+
+## Ignore IIS Express
+iisexpress/
+IISExpress/
+
+## Ignore ASP.NET / ASP.NET Core secrets
+secrets/
+secrets.json
+
+## Ignore Entity Framework migrations
+Migrations/
+
+## Ignore test-related files
+TestResults/
+coverage/
+*.coverage
+*.testsettings
+*.vsmdi
+*.trx
+*.coveragexml
+
+## Ignore Code Coverage
+*.coverage
+*.coverlet/
+coverage/
+
+## Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.swn
+*.DS_Store
+*.~*
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+## Ignore Resharper and Rider artifacts
+_ReSharper*/
+**/codeCoverage/
+**/resharper.xml
+*.DotSettings.user
+
+## Ignore logs and local databases
+*.log
+*.ldf
+*.mdf
+*.sqlite
+*.db
+
+## Ignore compiled documentation
+doc/bin/
+doc/obj/
+
+## Ignore Azure DevOps, GitHub Actions, and other CI/CD artifacts
+.vsts/
+azure-pipelines.yml
+.github/
+*.publishsettings
+
+## Ignore Python virtual env if used inside a .NET project
+venv/
